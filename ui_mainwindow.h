@@ -129,7 +129,7 @@ public:
     void retranslateUi(QMainWindow *MainWindow)
     {
         MainWindow->setWindowTitle(QCoreApplication::translate("MainWindow", "MainWindow", nullptr));
-        input_expression->setText(QCoreApplication::translate("MainWindow", "0-1*x*x+5*x", nullptr));
+        input_expression->setText(QCoreApplication::translate("MainWindow", "-2*x*x+5*x", nullptr));
         Button_paint_graph->setText(QCoreApplication::translate("MainWindow", "Rysuj wykres", nullptr));
         Button_increase_scale->setText(QCoreApplication::translate("MainWindow", "+", nullptr));
         Button_reduce_scale->setText(QCoreApplication::translate("MainWindow", "-", nullptr));
